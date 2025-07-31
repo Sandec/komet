@@ -567,6 +567,16 @@
                                 <JVMArg>javafx.base/com.sun.javafx.event=one.jpro.platform.file</JVMArg>
                                 <JVMArg>-Djava.util.concurrent.ForkJoinPool.common.exceptionHandler=dev.ikm.tinkar.common.alert.UncaughtExceptionAlertStreamer</JVMArg>
                             </JVMArgs>
+                             <jproReleaseFiles>
+                                <jproReleaseFile>
+                                    <inputFile>${project.build.directory}/../../conf/Dockerfile</inputFile>
+                                    <outputFile>Dockerfile</outputFile>
+                                </jproReleaseFile>
+                                <jproReleaseFile>
+                                    <inputFile>${project.build.directory}/../../conf/docker-compose.yml</inputFile>
+                                    <outputFile>docker-compose.yml</outputFile>
+                                </jproReleaseFile>
+                            </jproReleaseFiles>
                         </configuration>
                         <executions>
                             <execution>
