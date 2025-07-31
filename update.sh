@@ -9,7 +9,7 @@ KEY_FILE=~/.ssh/komet
 PROJECT=komet
 USERNAME=ubuntu
 
-# ./mvnw clean install -DskipTests; ./mvnw -P jpro -pl application jpro:release
+./mvnw clean install -DskipTests; ./mvnw -P jpro -pl application jpro:release
 
 echo "Updating nginx"
 
