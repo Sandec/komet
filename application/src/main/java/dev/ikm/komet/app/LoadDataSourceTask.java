@@ -29,6 +29,7 @@ public class LoadDataSourceTask extends TrackingCallable<Void> {
         updateTitle("Loading Data Source");
         updateMessage("Executing " + PrimitiveData.getController().controllerName());
         updateProgress(-1, -1);
+        System.out.println("here");
     }
 
     @Override
